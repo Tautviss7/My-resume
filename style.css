@@ -1,0 +1,135 @@
+* {
+    font-family: serif;
+    font-size: 20px;
+}
+
+
+.small-title {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    background-color: #06D001;
+    font-size: xx-large;
+}
+
+.summary {
+    background-color: #06D001; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 100px 300px;
+    grid-template-rows: auto 250px 350px;
+    gap: 10px;
+    justify-content: center;
+    text-align: left;
+    background-color: #FAF1E4;
+    padding: 20px;
+}
+
+
+.as {
+    width: 554px;
+    height: 596px;
+    display: grid;
+}
+
+.dalis1 {
+    grid-row: span 2;
+    height: px; 
+    background-color: #CEDEBD;
+
+}
+
+.dalis2 {
+    grid-row: span 1;
+    grid-column: span 2;
+    background-color: #CEDEBD;
+    padding: 10px;
+}
+
+
+.dalis3 {
+    grid-row: ;
+    grid-column: span 2;
+    background-color: #CEDEBD;
+    padding: 10px;
+}
+
+.dalis4 {
+    grid-column: span 2;
+    background-color: #CEDEBD;
+    padding: 10px;
+}
+
+.dalis5 {
+    background-color: #CEDEBD;
+    padding: 10px;
+
+}
+
+@media (max-width: 1000px) {
+    .grid-container {
+        grid-template-columns: 554px;
+        grid-template-rows: auto 250px ;
+        gap: 10px;
+        justify-content: center;
+        text-align: left;
+        background-color: #FAF1E4;
+        padding: 20px;
+    }
+
+    .dalis2 {
+    grid-column: span 1 ;
+    }
+
+    .dalis3 {
+        grid-column: span 1;
+    }
+    .dalis4 {
+        grid-column: span 1;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .grid-container {
+        display: flex; 
+        flex-direction: column;
+        width: 100%
+        
+    }   
+    .as {
+    flex: 100%;
+    max-width: 100%;
+    height: auto;
+}
+}
+
+
+
+.contact {
+    display: flex;
+    border: 2px solid green;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #CEDEBD;
+    max-width: 400px;
+    margin: auto;
+
+}
+.contacts {
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2contact {
+    text-align: center;
+    margin: 30px
+}
+
+
